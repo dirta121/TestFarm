@@ -44,10 +44,7 @@ namespace TestFarm
         }
         public new void Add(string name)
         {
-            if (SoFabricMethod.instance.GetGoodsByName(name).canBePlaced)
-            {
                 base.Add(name);
-            }
         }
         public new void Remove(string name)
         {

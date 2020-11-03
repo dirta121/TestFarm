@@ -29,7 +29,10 @@ namespace TestFarm
         }
         public new void Add(string name)
         {
-            base.Add(name);
+            if (SoFabricMethod.instance.GetGoodsByName(name).canBePlaced)
+            {
+                base.Add(name);
+            }
         }
     }
 

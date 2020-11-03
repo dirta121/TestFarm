@@ -6,7 +6,7 @@ using UnityEngine.Tilemaps;
 namespace TestFarm
 {
     [RequireComponent(typeof(Tilemap))]
-    public class TilemapController : MonoBehaviour, IPointerUpHandler, IPointerDownHandler, IPointerClickHandler
+    public class TilemapController : MonoBehaviour, IPointerUpHandler, IPointerDownHandler, IPointerClickHandler,IPointerExitHandler
     {
         public TilemapEvent onTileSelected = new TilemapEvent();
         public TilemapEvent onTileDragBegin = new TilemapEvent();
@@ -80,16 +80,25 @@ namespace TestFarm
             _tilemap.SetTileFlags(cell, TileFlags.None);
             _tilemap.SetColor(cell, color);
         }
+        private Vector3 _mousePosition;
         IEnumerator DragCoroutine()
         {
             _exitTime = 0;
             while (_pointerDown)
             {
                 _exitTime += Time.deltaTime;
+                
                 if (_exitTime > 0.25f)
                 {
-                    Debug.Log($"Drag");
-                    onTileDragBegin?.Invoke(_cell);
+                    
+                    if (Vector3.Distance(_mousePosition, Input.mousePosition) > _grid.cellSize.x)
+                    {
+                        //
+                    }
+                    else {
+                        Debug.Log($"Drag");
+                        onTileDragBegin?.Invoke(_cell);
+                    }
                     break;
                 }
                 yield return null;
@@ -101,8 +110,11 @@ namespace TestFarm
         /// <param name="eventData"></param>
         public void OnPointerDown(PointerEventData eventData)
         {
+            
+            _mousePosition = eventData.position;
             _pointerDown = true;
             _cell = GetTileCell();
+            SetSelection(_cell, Color.green);
             StartCoroutine(DragCoroutine());
             Debug.Log($"PointerDown on cell {_cell}");
             //onTileDragBegin?.Invoke(_cell);
@@ -110,10 +122,11 @@ namespace TestFarm
         public void OnPointerUp(PointerEventData eventData)
         {
             Debug.Log(_exitTime);
-            if (_exitTime < 0.25f)
+            if (_exitTime < 0.25f && Vector3.Distance(_mousePosition, Input.mousePosition) <0.2f)
             {
                 Debug.Log("PointerClick");
 
+                
                 onTileSelected?.Invoke(_cell);
             }
             else
@@ -121,8 +134,15 @@ namespace TestFarm
                 Debug.Log("PointerUP");
                 onTileDragEnd?.Invoke(_cell);
             }
+            ClearSelection();
             _pointerDown = false;
         }
+
+        public void OnPointerExit(PointerEventData eventData)
+        {
+            Debug.Log("EXIT");
+        }
+
         public class TilemapEvent : UnityEvent<Vector3Int>
         {
         }

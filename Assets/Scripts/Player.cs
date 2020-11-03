@@ -23,6 +23,8 @@ namespace TestFarm
         public Vector3Int size;
         [Tooltip("Default amout of the gold")]
         public int startGold;
+        [Tooltip("КОстыль")]
+        public MoveCamera moveCamera;
         public static int Gold { get; private set; }
         private int gold { get { return _gold; } set { _gold = value; Gold = value; onGoldChanged?.Invoke(value); } }
         private int _gold;
@@ -216,7 +218,8 @@ namespace TestFarm
         }
         private void OnTileDragBegin(Vector3Int cell)
         {
-            tilemapController.SetSelection(cell, Color.green);
+            moveCamera.enabled = false;
+          //  tilemapController.SetSelection(cell, Color.green);
             _drag = true;
             (string, Transform) tuple;
             if (fieldsDict.TryGetValue(cell, out tuple))
@@ -227,8 +230,9 @@ namespace TestFarm
         }
         private void OnTileDragEnd(Vector3Int cell)
         {
-            tilemapController.ClearSelection();
+           // tilemapController.ClearSelection();
             _drag = false;
+            moveCamera.enabled = true;
         }
         /// <summary>
         /// Drag in pdate
