@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
-using UnityEngine.XR.WSA.Input;
 namespace TestFarm
 {
     public class Store : Inventory<IInventoriable>

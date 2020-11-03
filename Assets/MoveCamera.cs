@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 namespace TestFarm
 {
     public class MoveCamera : MonoBehaviour
@@ -12,26 +11,36 @@ namespace TestFarm
         {
             _vertExtent = Camera.main.orthographicSize;
             _horzExtent = _vertExtent * Screen.width / Screen.height;
+#if !UNITY_EDITOR
+            speed = speed / 10.0f;
+#endif
         }
         private void Update()
         {
-#if UNITY_EDITOR
             if (Input.GetMouseButton(0))
             {
                 Drag();
             }
-#else
-        if (Input.touchCount > 0)
-        {
-            Drag();
-        }
-#endif
         }
         public void Drag()
         {
+            float xAxis=0;
+            float yAxis=0;
             var camera = Camera.main.transform;
-            var x = camera.position.x - CrossPlatformInputManager.GetAxis("Mouse X") * Time.deltaTime * speed;
-            var y = camera.position.y - CrossPlatformInputManager.GetAxis("Mouse Y") * Time.deltaTime * speed;
+#if UNITY_EDITOR
+
+            xAxis = Input.GetAxis("Mouse X");
+            yAxis = Input.GetAxis("Mouse Y");          
+#else
+            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
+            {
+                xAxis = Input.touches[0].deltaPosition.x;
+                yAxis = Input.touches[0].deltaPosition.y;
+            }
+           
+#endif
+            var x = camera.position.x - xAxis * Time.deltaTime * speed;
+            var y = camera.position.y - yAxis * Time.deltaTime * speed;
             camera.position = new Vector3(x, y, camera.position.z);
             if (camera.position.x <= limit.bounds.min.x + _horzExtent) camera.position = new Vector3(limit.bounds.min.x + _horzExtent,
                  camera.position.y,
