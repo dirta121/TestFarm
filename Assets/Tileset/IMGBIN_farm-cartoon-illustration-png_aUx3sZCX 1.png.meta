@@ -1,0 +1,2609 @@
+fileFormatVersion: 2
+guid: 28a6fb564d3e93d4faf8034b948fbdcc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6435580789875483701
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_0
+  - first:
+      213: -3761279322258531448
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_1
+  - first:
+      213: 3729704442033480528
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_2
+  - first:
+      213: -6711838423848546725
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_3
+  - first:
+      213: -6349529961449570409
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_4
+  - first:
+      213: 1777009652396135566
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_5
+  - first:
+      213: 6855234005196959617
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_6
+  - first:
+      213: -1441595782759525592
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_7
+  - first:
+      213: 915999560709525376
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_8
+  - first:
+      213: -2818905737768959592
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_9
+  - first:
+      213: -109800480410549695
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_10
+  - first:
+      213: 5409417295380240705
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_11
+  - first:
+      213: 8033967466700806280
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_12
+  - first:
+      213: -7221405161466930700
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_13
+  - first:
+      213: 3240012471202540470
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_14
+  - first:
+      213: 6405107958438415276
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_15
+  - first:
+      213: 6296337298129465104
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_16
+  - first:
+      213: -664932157702049490
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_17
+  - first:
+      213: 1424097499567301144
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_18
+  - first:
+      213: 8676438397164082649
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_19
+  - first:
+      213: -5195491965290845319
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_20
+  - first:
+      213: -2425187671155405447
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_21
+  - first:
+      213: -8037520172812241437
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_22
+  - first:
+      213: -3589850541073598696
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_23
+  - first:
+      213: -3485342379224529227
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_24
+  - first:
+      213: 6325856002020786834
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_25
+  - first:
+      213: 2484770468841824944
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_26
+  - first:
+      213: -8611905889329898501
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_27
+  - first:
+      213: -7019460695986883304
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_28
+  - first:
+      213: -5237029471613519700
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_29
+  - first:
+      213: -924875371828868207
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_30
+  - first:
+      213: 8517139000776539389
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_31
+  - first:
+      213: -5027897945399870001
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_32
+  - first:
+      213: -2370753438229381743
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_33
+  - first:
+      213: -5333673458519055535
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_34
+  - first:
+      213: 3935736050911836403
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_35
+  - first:
+      213: 7982547453182156225
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_36
+  - first:
+      213: -1108512191054539690
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_37
+  - first:
+      213: 2535034352751023746
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_38
+  - first:
+      213: 8266048868550384719
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_39
+  - first:
+      213: -3033307979625441501
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_40
+  - first:
+      213: -8841105633167357987
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_41
+  - first:
+      213: -9187883512673436692
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_42
+  - first:
+      213: 3798236752913269008
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_43
+  - first:
+      213: 3295864142022114867
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_44
+  - first:
+      213: 7732740825620377523
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_45
+  - first:
+      213: 2251301651917903882
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_46
+  - first:
+      213: -5584354650438805428
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_47
+  - first:
+      213: 1039039103711745891
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_48
+  - first:
+      213: -1765240930930006927
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_49
+  - first:
+      213: 3014877245173349905
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_50
+  - first:
+      213: -8802101008029038148
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_51
+  - first:
+      213: -391423165154707699
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_52
+  - first:
+      213: -3468681724945504101
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_53
+  - first:
+      213: 3180289076106478763
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_54
+  - first:
+      213: 462335145819962015
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_55
+  - first:
+      213: -5252181630603931188
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_56
+  - first:
+      213: 1433243267700368004
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_57
+  - first:
+      213: 2206021459299279389
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_58
+  - first:
+      213: -342594988325597070
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_59
+  - first:
+      213: 8502920195435952048
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_60
+  - first:
+      213: 1788132886150600441
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_61
+  - first:
+      213: -4989206895856115001
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_62
+  - first:
+      213: -236283882661512102
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_63
+  - first:
+      213: 7567985448516657584
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_64
+  - first:
+      213: -4983884453917843069
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_65
+  - first:
+      213: 8883360411797745913
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_66
+  - first:
+      213: 6485729518542645452
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_67
+  - first:
+      213: -2737023133710862545
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_68
+  - first:
+      213: -3382547136593293646
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_69
+  - first:
+      213: -1190105748575489197
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_70
+  - first:
+      213: -5324059734542821372
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_71
+  - first:
+      213: 7263689669381608239
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_72
+  - first:
+      213: 8456515651658978133
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_73
+  - first:
+      213: -1064228373882944552
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_74
+  - first:
+      213: -6881326372154728576
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_75
+  - first:
+      213: -6833226958892633747
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_76
+  - first:
+      213: -2833060047493449156
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_77
+  - first:
+      213: 5345994905473467833
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_78
+  - first:
+      213: 3439304237969238596
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_79
+  - first:
+      213: 33895348218598581
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_80
+  - first:
+      213: -4350264766320616596
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_81
+  - first:
+      213: 5966065377907244962
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_82
+  - first:
+      213: 197042559310527189
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_83
+  - first:
+      213: -8595347079313928908
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_84
+  - first:
+      213: 8682824796408451689
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_85
+  - first:
+      213: -9084431973108602037
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_86
+  - first:
+      213: 6558964425723003672
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_87
+  - first:
+      213: 7923901340898321020
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_88
+  - first:
+      213: -3028623886972419851
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_89
+  - first:
+      213: -8991986854712757224
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_90
+  - first:
+      213: 4453284907110748944
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_91
+  - first:
+      213: -8660545402769780701
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_92
+  - first:
+      213: 2177930122970400610
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_93
+  - first:
+      213: -8763948676639717056
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_94
+  - first:
+      213: 7297697131424191159
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_95
+  - first:
+      213: 2314514244016302301
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_96
+  - first:
+      213: 5718771416215129496
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_97
+  - first:
+      213: -3927794618455983848
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_98
+  - first:
+      213: 39903119801658517
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_99
+  - first:
+      213: -7317903057145918224
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_100
+  - first:
+      213: 5243138432758987553
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_101
+  - first:
+      213: -7737194647773669443
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_102
+  - first:
+      213: -8746501066283669047
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_103
+  - first:
+      213: 6136556729601750412
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_104
+  - first:
+      213: -8109539322092731823
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_105
+  - first:
+      213: 5261801345010745617
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_106
+  - first:
+      213: 6801614545655909269
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_107
+  - first:
+      213: 6480428508708377552
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_108
+  - first:
+      213: -4641307176200195520
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_109
+  - first:
+      213: 4992394265862340483
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_110
+  - first:
+      213: -287646523331976652
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_111
+  - first:
+      213: -7395247220184188857
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_112
+  - first:
+      213: 7483296505221714435
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_113
+  - first:
+      213: -2548209967735128045
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_114
+  - first:
+      213: 9016142614264963120
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_115
+  - first:
+      213: 8402857352692478831
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_116
+  - first:
+      213: 3021670358713369032
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_117
+  - first:
+      213: -8882628217225726835
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_118
+  - first:
+      213: -5995732192459097648
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_119
+  - first:
+      213: 603262904276199174
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_120
+  - first:
+      213: 4352739287237133894
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_121
+  - first:
+      213: 4841013568479653998
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_122
+  - first:
+      213: -503471463404667433
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_123
+  - first:
+      213: 1828773528664987072
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_124
+  - first:
+      213: 9109101929161454559
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_125
+  - first:
+      213: 1964974235486618423
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_126
+  - first:
+      213: -8785477051475867047
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_127
+  - first:
+      213: -3686501073376113193
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_128
+  - first:
+      213: -3035820149278914306
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_129
+  - first:
+      213: 3041619131984602394
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_130
+  - first:
+      213: -7170357521675218808
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_131
+  - first:
+      213: 4638125534418203640
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_132
+  - first:
+      213: -4688250589278345887
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_133
+  - first:
+      213: -3953740430477482156
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_134
+  - first:
+      213: -2058716418890382280
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_135
+  - first:
+      213: -4663748608022490754
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_136
+  - first:
+      213: -8877041013805605358
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_137
+  - first:
+      213: 2872904730041005521
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_138
+  - first:
+      213: -5062651682318843375
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_139
+  - first:
+      213: 4013590600129612354
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_140
+  - first:
+      213: 7832791251517330654
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_141
+  - first:
+      213: -2728224082410671483
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_142
+  - first:
+      213: 1313567801321315816
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_143
+  - first:
+      213: 292486579632842596
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_144
+  - first:
+      213: -6207596960416118983
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_145
+  - first:
+      213: -2348723268148444984
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_146
+  - first:
+      213: 8111981131780689807
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_147
+  - first:
+      213: 6212469020150711730
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_148
+  - first:
+      213: 5820871760977223171
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_149
+  - first:
+      213: 8210372900497962573
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_150
+  - first:
+      213: 4193280363620174836
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_151
+  - first:
+      213: -6848920547214343013
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_152
+  - first:
+      213: -8663254429428390439
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_153
+  - first:
+      213: -6059733601753204087
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_154
+  - first:
+      213: 6880615701557062659
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_155
+  - first:
+      213: 2625265362307948941
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_156
+  - first:
+      213: -1377565824715361662
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_157
+  - first:
+      213: 8645957714314406487
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_158
+  - first:
+      213: -5960203791856819404
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_159
+  - first:
+      213: -169308872520100688
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_160
+  - first:
+      213: -5882405768517876695
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_161
+  - first:
+      213: -7440076073263084784
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_162
+  - first:
+      213: 8171930565505075913
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_163
+  - first:
+      213: 6960236454581495502
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_164
+  - first:
+      213: 4274038972519927523
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_165
+  - first:
+      213: -7748475546783290899
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_166
+  - first:
+      213: 3890211223216340415
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_167
+  - first:
+      213: -8085789517108395255
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_168
+  - first:
+      213: -7843510502703681539
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_169
+  - first:
+      213: -5898834107683192499
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_170
+  - first:
+      213: -1489550931063198692
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_171
+  - first:
+      213: -5687551530140630502
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_172
+  - first:
+      213: 5653324079625579434
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_173
+  - first:
+      213: 1275216817149529191
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_174
+  - first:
+      213: -6737643741649008776
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_175
+  - first:
+      213: -2257188806130134018
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_176
+  - first:
+      213: -171477954413023400
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_177
+  - first:
+      213: -7647464980751972928
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_178
+  - first:
+      213: 6294924214820015723
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_179
+  - first:
+      213: -1516648910328813444
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_180
+  - first:
+      213: 444517546464633775
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_181
+  - first:
+      213: 2894769230937042300
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_182
+  - first:
+      213: -4797229799874867726
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_183
+  - first:
+      213: -591319866854899561
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_184
+  - first:
+      213: 4118853963774816629
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_185
+  - first:
+      213: 4487201561129555626
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_186
+  - first:
+      213: -3464730641157343399
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_187
+  - first:
+      213: -885285548284978703
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_188
+  - first:
+      213: 7138309617367376761
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_189
+  - first:
+      213: -2469755650937207281
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_190
+  - first:
+      213: 6272583534711210080
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_191
+  - first:
+      213: 8024416156541098913
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_192
+  - first:
+      213: -5618766106808870249
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_193
+  - first:
+      213: 2602851440032702075
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_194
+  - first:
+      213: 6330420970790770800
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_195
+  - first:
+      213: 48082647067413485
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_196
+  - first:
+      213: -1881902529244417745
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_197
+  - first:
+      213: -6846890707229859624
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_198
+  - first:
+      213: 7171565288164364201
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_199
+  - first:
+      213: -1711106727945250515
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_200
+  - first:
+      213: -6669927015423791013
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_201
+  - first:
+      213: 5320408552898878608
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_202
+  - first:
+      213: 8418656915452756215
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_203
+  - first:
+      213: -507734116427002751
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_204
+  - first:
+      213: 1326732503311222155
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_205
+  - first:
+      213: 4904713804826766038
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_206
+  - first:
+      213: -8766587322242922058
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_207
+  - first:
+      213: -3527191372189751787
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_208
+  - first:
+      213: -6650350619477609745
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_209
+  - first:
+      213: 6956688435766176318
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_210
+  - first:
+      213: 3315392856969445682
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_211
+  - first:
+      213: -1000894412527619055
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_212
+  - first:
+      213: 3600709558593655678
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_213
+  - first:
+      213: 2006044009199187463
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_214
+  - first:
+      213: -9149095990808962823
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_215
+  - first:
+      213: -4847838723223994633
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_216
+  - first:
+      213: -249513333627201512
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_217
+  - first:
+      213: 511647269996803332
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_218
+  - first:
+      213: 9190522683960721841
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_219
+  - first:
+      213: -4069214866333618960
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_220
+  - first:
+      213: 3612806286242554240
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_221
+  - first:
+      213: 4441108708246649061
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_222
+  - first:
+      213: 2662810020380352922
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_223
+  - first:
+      213: -821149267037882264
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_224
+  - first:
+      213: -7265481656113364860
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_225
+  - first:
+      213: -1228547807153725281
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_226
+  - first:
+      213: -863280560424440049
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_227
+  - first:
+      213: -747733160067968915
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_228
+  - first:
+      213: -7328151189273217296
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_229
+  - first:
+      213: -6904514531556969581
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_230
+  - first:
+      213: -6420475830244730573
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_231
+  - first:
+      213: -6460476986514640191
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_232
+  - first:
+      213: 7513362347746156063
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_233
+  - first:
+      213: -1838368149762432416
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_234
+  - first:
+      213: -1187726939729451010
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_0
+  - first:
+      213: 4501598898644421919
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_1
+  - first:
+      213: -3441719785938727287
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_2
+  - first:
+      213: 7046140755731726308
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_3
+  - first:
+      213: -1234634700757057517
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_4
+  - first:
+      213: -8756530603605758564
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_5
+  - first:
+      213: 2565908977216083472
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_6
+  - first:
+      213: -91282512356424830
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_7
+  - first:
+      213: 8453608764206494500
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_8
+  - first:
+      213: 3950919313634834293
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_9
+  - first:
+      213: -2254800883703434152
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_10
+  - first:
+      213: 2347041000637520999
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_11
+  - first:
+      213: 6748898687195503416
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_12
+  - first:
+      213: 5814172047310845164
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_13
+  - first:
+      213: 3979209586346289426
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_14
+  - first:
+      213: 730424417113682737
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_15
+  - first:
+      213: -7205117728339154384
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_16
+  - first:
+      213: -7987586890971509067
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_17
+  - first:
+      213: -5541285939388042775
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_18
+  - first:
+      213: -8207271620224013536
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_19
+  - first:
+      213: -5289497322675687613
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_20
+  - first:
+      213: -4422760471644676567
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_21
+  - first:
+      213: 8496982501848081599
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_22
+  - first:
+      213: 1892484904870260447
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_23
+  - first:
+      213: -1171555455097332227
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_24
+  - first:
+      213: 3991322655120916011
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_25
+  - first:
+      213: -7504814040543458064
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_26
+  - first:
+      213: 348578507753330720
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_27
+  - first:
+      213: -5601665339492599795
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_28
+  - first:
+      213: -1635082873147279612
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_29
+  - first:
+      213: -8643209313753952406
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_30
+  - first:
+      213: 1162090282890749387
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_31
+  - first:
+      213: -6141166943718642365
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_32
+  - first:
+      213: -3781884490074343536
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_33
+  - first:
+      213: 5599671961795580871
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_34
+  - first:
+      213: 3789117395223189044
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_35
+  - first:
+      213: 2452117887787435248
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_36
+  - first:
+      213: -6909838257580054089
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_37
+  - first:
+      213: -179737595848338767
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_38
+  - first:
+      213: -7509443307618554985
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_39
+  - first:
+      213: -6743559388500125758
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_40
+  - first:
+      213: 6882647111008939497
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_41
+  - first:
+      213: -2496230397205648565
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_42
+  - first:
+      213: 4599916742519707253
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_43
+  - first:
+      213: 8046361974353991125
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_44
+  - first:
+      213: 2316676973093520339
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_45
+  - first:
+      213: -4873226415559746418
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_46
+  - first:
+      213: -4930687739112323366
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_47
+  - first:
+      213: 974142488895135471
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_48
+  - first:
+      213: 7732831623703971071
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_49
+  - first:
+      213: 8025180557372910875
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_50
+  - first:
+      213: -322112313992040502
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_51
+  - first:
+      213: -4051191281176538540
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_52
+  - first:
+      213: -3998364010463045778
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_53
+  - first:
+      213: 139157270877587334
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_54
+  - first:
+      213: 105526277103382596
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_55
+  - first:
+      213: 8675521629613561196
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_56
+  - first:
+      213: -1508469438874580930
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_57
+  - first:
+      213: 2279290456883194640
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_58
+  - first:
+      213: -5153934166136402943
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_59
+  - first:
+      213: -3892353815861713476
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_60
+  - first:
+      213: -2713045689131698230
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_61
+  - first:
+      213: -5592864160587601755
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_62
+  - first:
+      213: 3881671868555166050
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_63
+  - first:
+      213: 6234340669153019219
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_64
+  - first:
+      213: 8645443448618872564
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_65
+  - first:
+      213: 7183079574449125894
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_66
+  - first:
+      213: 7015508092136718114
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_67
+  - first:
+      213: 9096937629881131635
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_68
+  - first:
+      213: 9088296823368876898
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_69
+  - first:
+      213: -8989117706364920740
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_70
+  - first:
+      213: -4939769029528911565
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_71
+  - first:
+      213: -4109198043373915154
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_72
+  - first:
+      213: -4615624342582319670
+    second: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_73
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1160
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7a34324a8548fe0800000000000000
+      internalID: -1187726939729451010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1160
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d8dfa0954e87e30800000000000000
+      internalID: 4501598898644421919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1160
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e40b6f61e8c30d0800000000000000
+      internalID: -3441719785938727287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1160
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efbace6fabe8c160800000000000000
+      internalID: 7046140755731726308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1160
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3104102f742bddee0800000000000000
+      internalID: -1234634700757057517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_5
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1160
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ded336fcd8a7680800000000000000
+      internalID: -8756530603605758564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_6
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1160
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01653f8be90fb9320800000000000000
+      internalID: 2565908977216083472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_7
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1160
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2834ac4e903bbbef0800000000000000
+      internalID: -91282512356424830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_8
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1160
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42338a4c160415570800000000000000
+      internalID: 8453608764206494500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 980
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5773f61de2c74d630800000000000000
+      internalID: 3950919313634834293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 980
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854be9fea8655b0e0800000000000000
+      internalID: -2254800883703434152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 980
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cd64cda5d529020800000000000000
+      internalID: 2347041000637520999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 980
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b536b4997e8ad50800000000000000
+      internalID: 6748898687195503416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_13
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 980
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4f7f61ca610b050800000000000000
+      internalID: 5814172047310845164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_14
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 980
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219eff8390ef83730800000000000000
+      internalID: 3979209586346289426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_15
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 980
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133355d232df22a00800000000000000
+      internalID: 730424417113682737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_16
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 980
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03aa975b997420c90800000000000000
+      internalID: -7205117728339154384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_17
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 980
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be831fea04662190800000000000000
+      internalID: -7987586890971509067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_18
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 980
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1b8ef0cc56913b0800000000000000
+      internalID: -5541285939388042775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b276502f9e91e80800000000000000
+      internalID: -8207271620224013536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_20
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 800
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f2981c53ee796b0800000000000000
+      internalID: -5289497322675687613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_21
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 800
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92edaf8a8c23f92c0800000000000000
+      internalID: -4422760471644676567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_22
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 800
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb46d5501985be570800000000000000
+      internalID: 8496982501848081599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_23
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 800
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdea4918ef4734a10800000000000000
+      internalID: 1892484904870260447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_24
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 800
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd9040558ccdbfe0800000000000000
+      internalID: -1171555455097332227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_25
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 800
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e7372dec6046730800000000000000
+      internalID: 3991322655120916011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_26
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 800
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc0b00746b89d790800000000000000
+      internalID: -7504814040543458064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_27
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 800
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02819f25e4666d400800000000000000
+      internalID: 348578507753330720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_28
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 800
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08fce87d03e242b0800000000000000
+      internalID: -5601665339492599795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_29
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 800
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4073bb73ac40f49e0800000000000000
+      internalID: -1635082873147279612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f095e3ce62d0880800000000000000
+      internalID: -8643209313753952406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_31
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 620
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5e2ac84f2902010800000000000000
+      internalID: 1162090282890749387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_32
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 620
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d6745b33136caa0800000000000000
+      internalID: -6141166943718642365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_33
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 620
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0973f83f71c048bc0800000000000000
+      internalID: -3781884490074343536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_34
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 620
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c35a8d1bf706bd40800000000000000
+      internalID: 5599671961795580871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_35
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 620
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43618820236a59430800000000000000
+      internalID: 3789117395223189044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_36
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 620
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f483f02a3ca70220800000000000000
+      internalID: 2452117887787435248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_37
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 620
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b96981f6b25b10a0800000000000000
+      internalID: -6909838257580054089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_38
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 620
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b25daedb91718df0800000000000000
+      internalID: -179737595848338767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_39
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 620
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b2674391919c790800000000000000
+      internalID: -7509443307618554985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_40
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 620
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c713be07701a62a0800000000000000
+      internalID: -6743559388500125758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed6e06e413148f50800000000000000
+      internalID: 6882647111008939497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_42
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 440
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b6609edab9b5dd0800000000000000
+      internalID: -2496230397205648565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_43
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 440
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576524ae7ef26df30800000000000000
+      internalID: 4599916742519707253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_44
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 440
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5949f859b6aaf60800000000000000
+      internalID: 8046361974353991125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_45
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 440
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d30198ce6d762020800000000000000
+      internalID: 2316676973093520339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_46
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 440
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cd28ef462de5cb0800000000000000
+      internalID: -4873226415559746418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_47
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 440
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad606db00ada29bb0800000000000000
+      internalID: -4930687739112323366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_48
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 440
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee9533be69d48d00800000000000000
+      internalID: 974142488895135471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_49
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 440
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff448c63469805b60800000000000000
+      internalID: 7732831623703971071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_50
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 440
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d659c923b2f5f60800000000000000
+      internalID: 8025180557372910875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_51
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 440
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfa9ba9e80a78bf0800000000000000
+      internalID: -322112313992040502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45210507ef647c7c0800000000000000
+      internalID: -4051191281176538540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_53
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 260
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67d4a1ed15f288c0800000000000000
+      internalID: -3998364010463045778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_54
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 260
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6874292fcc26ee100800000000000000
+      internalID: 139157270877587334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_55
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 260
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44077350797e67100800000000000000
+      internalID: 105526277103382596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_56
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 260
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65955e05f4a56870800000000000000
+      internalID: 8675521629613561196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_57
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 260
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38095d9907d01be0800000000000000
+      internalID: -1508469438874580930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_58
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 260
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01be576289aa1af10800000000000000
+      internalID: 2279290456883194640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_59
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 260
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cc0bfbe2c8978b0800000000000000
+      internalID: -5153934166136402943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_60
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 260
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb52d69b3d49bf9c0800000000000000
+      internalID: -3892353815861713476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_61
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 260
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac776efe153595ad0800000000000000
+      internalID: -2713045689131698230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_62
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 260
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8a92f9da72262b0800000000000000
+      internalID: -5592864160587601755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2618bdb9ff77ed530800000000000000
+      internalID: 3881671868555166050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_64
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 80
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35503a1cec3d48650800000000000000
+      internalID: 6234340669153019219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_65
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 80
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fee7a0d209caf770800000000000000
+      internalID: 8645443448618872564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_66
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 80
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a776cb0dc6fa360800000000000000
+      internalID: 7183079574449125894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_67
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 80
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fffa6a0771c5160800000000000000
+      internalID: 7015508092136718114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_68
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 80
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372e2f4a390de3e70800000000000000
+      internalID: 9096937629881131635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_69
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 80
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263863a1fcd102e70800000000000000
+      internalID: 9088296823368876898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_70
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 80
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cd1fb821d304380800000000000000
+      internalID: -8989117706364920740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_71
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 80
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331047a5d3a627bb0800000000000000
+      internalID: -4939769029528911565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_72
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 80
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3b7f8a62239f6c0800000000000000
+      internalID: -4109198043373915154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMGBIN_farm-cartoon-illustration-png_aUx3sZCX 1_73
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 80
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac52cb37d1202ffb0800000000000000
+      internalID: -4615624342582319670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

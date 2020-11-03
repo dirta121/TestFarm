@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b8867e3a127c14086d7b0341819e21, type: 3}
+  m_Name: Wheat
+  m_EditorClassIdentifier: 
+  subjectName: Wheat
+  buyPrice: 10
+  sellPrice: 10
+  productionTime: 10
+  products:
+  - {fileID: 11400000}
+  - {fileID: 11400000}
+  isAnimal: 0
+  food: []
+  produceTimes: 1
+  audioClips:
+  - {fileID: 8300000, guid: 094a917a1937bd543a5d63b030446bba, type: 3}
+  - {fileID: 8300000, guid: 59793ad2a7b0d2e4789c13dac7bac0af, type: 3}
+  sprite: {fileID: 21300000, guid: 6cfcb238bf2cf664b83ccb554386c6f9, type: 3}
+  canBePlaced: 1

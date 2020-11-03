@@ -1,0 +1,1 @@
+{"gold":5000,"warehouse":{"items":[]},"fields":{"items":[]}}

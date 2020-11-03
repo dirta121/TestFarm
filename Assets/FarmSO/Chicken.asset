@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b8867e3a127c14086d7b0341819e21, type: 3}
+  m_Name: Chicken
+  m_EditorClassIdentifier: 
+  subjectName: Chicken
+  buyPrice: 25
+  sellPrice: 25
+  productionTime: 10
+  products:
+  - {fileID: 11400000, guid: 84f9e7bfb4cc7ce4caba85d04c1d2871, type: 2}
+  isAnimal: 1
+  food:
+  - {fileID: 11400000, guid: 3f90e2f8370bfdd48901f9b5966b2671, type: 2}
+  produceTimes: 3
+  audioClips:
+  - {fileID: 8300000, guid: 7cae575545d2a5b4c870249ad62c6af1, type: 3}
+  - {fileID: 8300000, guid: e85b039a6d9052f488b09ac58f6366e3, type: 3}
+  - {fileID: 8300000, guid: 7557f30a51fa17e45b76faa3e9601365, type: 3}
+  - {fileID: 8300000, guid: 86ab45e0dac6102468066e8e93b8f094, type: 3}
+  sprite: {fileID: 5336855417275088078, guid: e7500d956ff33054a8415786f9449829, type: 3}
+  canBePlaced: 1

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b8867e3a127c14086d7b0341819e21, type: 3}
+  m_Name: Cow
+  m_EditorClassIdentifier: 
+  subjectName: Cow
+  buyPrice: 200
+  sellPrice: 150
+  productionTime: 20
+  products:
+  - {fileID: 11400000, guid: ddc499ed42be7554489b5f0e56524a75, type: 2}
+  isAnimal: 1
+  food:
+  - {fileID: 11400000, guid: 3f90e2f8370bfdd48901f9b5966b2671, type: 2}
+  produceTimes: 1
+  audioClips:
+  - {fileID: 8300000, guid: 31c6418c2972c2548bc8a5b11765eb6d, type: 3}
+  - {fileID: 8300000, guid: 0be2f53807d9c284eb54a60a1efbb3d3, type: 3}
+  - {fileID: 8300000, guid: 70ce5947c39e9d14fa37ed458953481c, type: 3}
+  - {fileID: 8300000, guid: 52a7ddb54fedcda4f852a3072d72f825, type: 3}
+  - {fileID: 8300000, guid: 0ec6d9cf47496d645ba8f2af042639e4, type: 3}
+  - {fileID: 8300000, guid: d7238a7f8d26df04ab9000d0b51d4be8, type: 3}
+  sprite: {fileID: 8698407567391692000, guid: 16e35e20022540c4eb836306c028fd72, type: 3}
+  canBePlaced: 1
