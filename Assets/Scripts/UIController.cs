@@ -28,6 +28,7 @@ namespace TestFarm
         /// <param name="state"></param>
         public void ShowMenu(bool state)
         {
+            InputController.canInput = !state;
             menu.SetActive(state);
         }
         /// <summary>
@@ -76,6 +77,7 @@ namespace TestFarm
         /// <param name="state"></param>
         public void ShowStore(bool state)
         {
+            InputController.canInput = !state;
             store.SetActive(state);
         }
         /// <summary>
@@ -92,6 +94,7 @@ namespace TestFarm
         /// <param name="state"></param>
         public void ShowWarehouse(bool state)
         {
+            InputController.canInput = !state;
             warehouse.SetActive(state);
         }
         /// <summary>
@@ -100,6 +103,7 @@ namespace TestFarm
         /// <param name="state"></param>
         public void ShowPicker(bool state)
         {
+            InputController.canInput = !state;
             picker.SetActive(state);
         }
         /// <summary>
@@ -152,6 +156,7 @@ namespace TestFarm
         /// <param name="state"></param>
         public void ShowLoadingScreen(bool state)
         {
+            InputController.canInput = !state;
             loadingScreen.SetActive(state);
         }
         /// <summary>

@@ -1,27 +1,28 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.EventSystems;
 using UnityEngine.Tilemaps;
 namespace TestFarm
 {
     [RequireComponent(typeof(Tilemap))]
-    public class TilemapController : MonoBehaviour, IPointerUpHandler, IPointerDownHandler, IPointerClickHandler,IPointerExitHandler
+    public class TilemapController : MonoBehaviour
     {
-        public TilemapEvent onTileSelected = new TilemapEvent();
+        public TilemapEvent onTileClick = new TilemapEvent();
         public TilemapEvent onTileDragBegin = new TilemapEvent();
+        public TilemapEvent onTileDrag = new TilemapEvent();
         public TilemapEvent onTileDragEnd = new TilemapEvent();
         private Grid _grid;
         private Tilemap _tilemap;
         private (Vector3Int, Color, TileFlags)? _previousTileColor;
-        private Vector3Int _cell;
-        private float _exitTime;
-        private bool _pointerDown;
+        private Vector3Int? _cell;
         private void Start()
         {
             _grid = GetComponentInParent<Grid>();
             _tilemap = GetComponent<Tilemap>();
-
+            InputController.onMouseDown.AddListener(OnTileDown);
+            InputController.onMouseClick.AddListener(OnTileClick);
+            InputController.onMouseDrag.AddListener(OnTileDrag);
+            InputController.onMouseUp.AddListener(OnTileUp);
         }
         /// <summary>
         /// Set size of a tilemap
@@ -32,16 +33,6 @@ namespace TestFarm
             if (_tilemap)
                 _tilemap.size = size;
         }
-        /// <summary>
-        /// Recieve cell coordinates from raycast
-        /// </summary>
-        /// <returns></returns>
-        private Vector3Int GetTileCell()
-        {
-            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector3Int cell = _grid.WorldToCell(mouseWorldPos);
-            return cell;
-        }
         public Vector3 WorldToCell(Vector3Int cell)
         {
             return _grid.CellToWorld(cell);
@@ -50,11 +41,6 @@ namespace TestFarm
         {
             Vector3 vector = _grid.CellToWorld(cell);
             return new Vector3(vector.x + _grid.cellSize.x / 2, vector.y + _grid.cellSize.y / 2, vector.z);
-        }
-        public void OnPointerClick(PointerEventData eventData)
-        {
-            //Debug.Log("PointerClick");   
-            //onTileSelected?.Invoke(_cell);
         }
         /// <summary>
         /// Set the default color to the selected cell
@@ -80,70 +66,104 @@ namespace TestFarm
             _tilemap.SetTileFlags(cell, TileFlags.None);
             _tilemap.SetColor(cell, color);
         }
-        private Vector3 _mousePosition;
-        IEnumerator DragCoroutine()
+        /// <summary>
+        /// Recieve cell coordinates from raycast
+        /// </summary>
+        /// <returns></returns>
+        private bool TryGetTileCell(Vector3 mousePosition, out Vector3Int? cell)
         {
-            _exitTime = 0;
-            while (_pointerDown)
+            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(mousePosition);
+            cell = _grid.WorldToCell(mouseWorldPos);
+            if (cell.Value.x <= _tilemap.size.x - 1 && cell.Value.y <= _tilemap.size.y - 1)
             {
-                _exitTime += Time.deltaTime;
-                
-                if (_exitTime > 0.25f)
-                {
-                    
-                    if (Vector3.Distance(_mousePosition, Input.mousePosition) > _grid.cellSize.x)
-                    {
-                        //
-                    }
-                    else {
-                        Debug.Log($"Drag");
-                        onTileDragBegin?.Invoke(_cell);
-                    }
-                    break;
-                }
+                return true;
+            }
+            cell = null;
+            return false;
+        }
+        private Coroutine _dragDelayCroroutine;
+        private Vector3 _mousePosition;
+        private const float _dragDelay = 0.25f;
+        private float _time;
+        private bool _drag;
+        IEnumerator DragDelayCoroutine(Vector3 mousePosition)
+        {
+            _time = 0;
+            _mousePosition = mousePosition;
+            while (_time <= _dragDelay)
+            {
+                _time += Time.deltaTime;
                 yield return null;
             }
+            OnTileDragBegin(Input.mousePosition);
         }
-        /// <summary>
-        /// Drag is after 0.25sec else it is click
-        /// </summary>
-        /// <param name="eventData"></param>
-        public void OnPointerDown(PointerEventData eventData)
+        private void OnTileDragBegin(Vector3 mousePosition)
         {
-            
-            _mousePosition = eventData.position;
-            _pointerDown = true;
-            _cell = GetTileCell();
-            SetSelection(_cell, Color.green);
-            StartCoroutine(DragCoroutine());
-            Debug.Log($"PointerDown on cell {_cell}");
-            //onTileDragBegin?.Invoke(_cell);
-        }
-        public void OnPointerUp(PointerEventData eventData)
-        {
-            Debug.Log(_exitTime);
-            if (_exitTime < 0.25f && Vector3.Distance(_mousePosition, Input.mousePosition) <0.2f)
+            Debug.Log(Vector3.Distance(_mousePosition, mousePosition));
+            if (_cell.HasValue && Vector3.Distance(_mousePosition, mousePosition) < _grid.cellSize.x)
             {
-                Debug.Log("PointerClick");
-
-                
-                onTileSelected?.Invoke(_cell);
+                SetSelection(_cell.Value, Color.green);
+                _drag = true;
+                Debug.Log($"TileBeginDrag cell {_cell}");
+                onTileDragBegin?.Invoke(_cell.Value, mousePosition);
             }
-            else
-            {
-                Debug.Log("PointerUP");
-                onTileDragEnd?.Invoke(_cell);
-            }
-            ClearSelection();
-            _pointerDown = false;
         }
-
-        public void OnPointerExit(PointerEventData eventData)
+        private void OnTileDown(Vector3 mousePosition)
         {
-            Debug.Log("EXIT");
+            if (TryGetTileCell(mousePosition, out _cell))
+            {
+                SetSelection(_cell.Value, Color.green);
+                if (_dragDelayCroroutine != null)
+                {
+                    StopCoroutine(_dragDelayCroroutine);
+                }
+                _dragDelayCroroutine = StartCoroutine(DragDelayCoroutine(mousePosition));
+                Debug.Log($"TileDown cell {_cell}");
+            }
         }
-
-        public class TilemapEvent : UnityEvent<Vector3Int>
+        private void OnTileClick(Vector3 mousePosition)
+        {
+            if (_cell.HasValue)
+            {
+                if (_dragDelayCroroutine != null)
+                {
+                    StopCoroutine(_dragDelayCroroutine);
+                }
+                Debug.Log($"TileClick on cell {_cell}");
+                onTileClick?.Invoke(_cell.Value, mousePosition);
+                ClearSelection();
+            }
+        }
+        private void OnTileDragEnd(Vector3 mousePosition)
+        {
+            if (_drag && _cell.HasValue)
+            {
+                Debug.Log($"TileBeginDrag cell {_cell}");
+                onTileDragEnd?.Invoke(_cell.Value, mousePosition);
+            }
+            _drag = false;
+        }
+        private void OnTileUp(Vector3 mousePosition)
+        {
+            if (_cell.HasValue)
+            {
+                Debug.Log($"TileUp on cell {_cell.Value}");
+                if (_drag)
+                {
+                    OnTileDragEnd(mousePosition);
+                }
+                ClearSelection();
+            }
+        }
+        private void OnTileDrag(Vector3 mousePosition)
+        {
+            if (_drag && _cell.HasValue)
+            {
+                Debug.Log($"TileDrag cell {_cell}");
+                onTileDrag?.Invoke(_cell.Value, mousePosition);
+            }
+        }
+        public class TilemapEvent : UnityEvent<Vector3Int, Vector3>
         {
         }
     }

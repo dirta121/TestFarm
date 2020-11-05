@@ -103,8 +103,9 @@ namespace TestFarm
         private void Init()
         {
             gold = startGold;
-            tilemapController.onTileSelected.AddListener(OnTileSelected);
+            tilemapController.onTileClick.AddListener(OnTileClick);
             tilemapController.onTileDragBegin.AddListener(OnTileDragBegin);
+            tilemapController.onTileDrag.AddListener(OnTileDrag);
             tilemapController.onTileDragEnd.AddListener(OnTileDragEnd);
             tilemapController.SetSize(size);
             FarmSubject.onProductsReady.AddListener(OnProductsReady);
@@ -113,8 +114,9 @@ namespace TestFarm
         }
         private void Init(SavePlayerData data)
         {
-            tilemapController.onTileSelected.AddListener(OnTileSelected);
+            tilemapController.onTileClick.AddListener(OnTileClick);
             tilemapController.onTileDragBegin.AddListener(OnTileDragBegin);
+            tilemapController.onTileDrag.AddListener(OnTileDrag);
             tilemapController.onTileDragEnd.AddListener(OnTileDragEnd);
             tilemapController.SetSize(size);
             FarmSubject.onProductsReady.AddListener(OnProductsReady);
@@ -206,7 +208,7 @@ namespace TestFarm
         /// Listener for the TileSelected Event
         /// </summary>
         /// <param name="cell"></param>
-        private void OnTileSelected(Vector3Int cell)
+        private void OnTileClick(Vector3Int cell,Vector3 mousePosition)
         {
             if (fieldsDict.ContainsKey(cell))
             {
@@ -216,47 +218,39 @@ namespace TestFarm
             _currentSelected = cell;
             UIController.instance.ShowPicker(true);
         }
-        private void OnTileDragBegin(Vector3Int cell)
+        private Transform _dragable;
+        private Vector3 _startPosition;
+        private void OnTileDragBegin(Vector3Int cell, Vector3 mousePosition)
         {
-            moveCamera.enabled = false;
-          //  tilemapController.SetSelection(cell, Color.green);
-            _drag = true;
+            moveCamera.canMove = false;
             (string, Transform) tuple;
             if (fieldsDict.TryGetValue(cell, out tuple))
             {
                 SoundController.instance.PlayCurrentClip(SoFabricMethod.instance.GetGoodsByName(fieldsDict[cell].Item1).audioClips);
-                StartCoroutine(DragCoroutine(cell, tuple.Item2));
+                _dragable = tuple.Item2;
+                _startPosition = _dragable.position;
             }
         }
-        private void OnTileDragEnd(Vector3Int cell)
+        private void OnTileDrag(Vector3Int cell,Vector3 mousePosition) 
         {
-           // tilemapController.ClearSelection();
-            _drag = false;
-            moveCamera.enabled = true;
+            DragSprite(mousePosition);
         }
-        /// <summary>
-        /// Drag in pdate
-        /// </summary>
-        /// <param name="cell"></param>
-        /// <param name="dragable"></param>
-        /// <returns></returns>
-        IEnumerator DragCoroutine(Vector3Int cell, Transform dragable)
+        private void OnTileDragEnd(Vector3Int cell, Vector3 mousePosition)
         {
-            var startPosition = dragable.position;
-            while (_drag)
-            {
-                yield return null;
-                Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                dragable.position = mousePos;
-            }
-            if (Vector3.Distance(startPosition, dragable.position) > 6)
+            if (Vector3.Distance(_startPosition, _dragable.position) > 6)
             {
                 Unplace(cell);
             }
             else
             {
-                dragable.DOMove(startPosition, 1);
+                _dragable.DOMove(_startPosition, 1);
             }
+            moveCamera.canMove = true;
+        }
+        private void DragSprite(Vector3 mousePosition)
+        {
+            Vector2 pos = Camera.main.ScreenToWorldPoint(mousePosition);
+            _dragable.position = pos;
         }
         private void OnProductsReady(Goods[] goods, FarmSubject farmSubject)
         {
