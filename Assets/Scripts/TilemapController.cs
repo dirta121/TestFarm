@@ -62,6 +62,7 @@ namespace TestFarm
         /// <param name="color"></param>
         public void SetSelection(Vector3Int cell, Color color)
         {
+            ClearSelection();
             _previousTileColor = (cell, _tilemap.GetColor(cell), _tilemap.GetTileFlags(cell));
             _tilemap.SetTileFlags(cell, TileFlags.None);
             _tilemap.SetColor(cell, color);
@@ -99,7 +100,6 @@ namespace TestFarm
         }
         private void OnTileDragBegin(Vector3 mousePosition)
         {
-            Debug.Log(Vector3.Distance(_mousePosition, mousePosition));
             if (_cell.HasValue && Vector3.Distance(_mousePosition, mousePosition) < _grid.cellSize.x)
             {
                 SetSelection(_cell.Value, Color.green);
@@ -123,28 +123,32 @@ namespace TestFarm
         }
         private void OnTileClick(Vector3 mousePosition)
         {
-            if (_cell.HasValue)
+            if (_dragDelayCroroutine != null)
             {
-                if (_dragDelayCroroutine != null)
-                {
-                    StopCoroutine(_dragDelayCroroutine);
-                }
+                StopCoroutine(_dragDelayCroroutine);
+            }
+            if (TryGetTileCell(mousePosition, out _cell))
+            {
                 Debug.Log($"TileClick on cell {_cell}");
                 onTileClick?.Invoke(_cell.Value, mousePosition);
-                ClearSelection();
+                // ClearSelection();
             }
         }
         private void OnTileDragEnd(Vector3 mousePosition)
         {
             if (_drag && _cell.HasValue)
             {
-                Debug.Log($"TileBeginDrag cell {_cell}");
+                Debug.Log($"TileEndDrag cell {_cell}");
                 onTileDragEnd?.Invoke(_cell.Value, mousePosition);
             }
             _drag = false;
         }
         private void OnTileUp(Vector3 mousePosition)
         {
+            if (_dragDelayCroroutine != null)
+            {
+                StopCoroutine(_dragDelayCroroutine);
+            }
             if (_cell.HasValue)
             {
                 Debug.Log($"TileUp on cell {_cell.Value}");
@@ -152,8 +156,8 @@ namespace TestFarm
                 {
                     OnTileDragEnd(mousePosition);
                 }
-                ClearSelection();
             }
+            ClearSelection();
         }
         private void OnTileDrag(Vector3 mousePosition)
         {

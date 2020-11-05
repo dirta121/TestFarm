@@ -208,7 +208,7 @@ namespace TestFarm
         /// Listener for the TileSelected Event
         /// </summary>
         /// <param name="cell"></param>
-        private void OnTileClick(Vector3Int cell,Vector3 mousePosition)
+        private void OnTileClick(Vector3Int cell, Vector3 mousePosition)
         {
             if (fieldsDict.ContainsKey(cell))
             {
@@ -218,39 +218,52 @@ namespace TestFarm
             _currentSelected = cell;
             UIController.instance.ShowPicker(true);
         }
-        private Transform _dragable;
-        private Vector3 _startPosition;
+        /// <summary>
+        /// startPosition and Transform component of the draggable object
+        /// </summary>
+        (Vector3, Transform)? _positionTransformTuple;
+
         private void OnTileDragBegin(Vector3Int cell, Vector3 mousePosition)
         {
-            moveCamera.canMove = false;
+            
             (string, Transform) tuple;
             if (fieldsDict.TryGetValue(cell, out tuple))
             {
+                moveCamera.canMove = false;
                 SoundController.instance.PlayCurrentClip(SoFabricMethod.instance.GetGoodsByName(fieldsDict[cell].Item1).audioClips);
-                _dragable = tuple.Item2;
-                _startPosition = _dragable.position;
+                _positionTransformTuple = (tuple.Item2.position, tuple.Item2);
+                return;
             }
+            _positionTransformTuple = null;
         }
-        private void OnTileDrag(Vector3Int cell,Vector3 mousePosition) 
+        private void OnTileDrag(Vector3Int cell, Vector3 mousePosition)
         {
-            DragSprite(mousePosition);
+            if (_positionTransformTuple.HasValue)
+            {
+                DragSprite(mousePosition);
+            }
         }
         private void OnTileDragEnd(Vector3Int cell, Vector3 mousePosition)
         {
-            if (Vector3.Distance(_startPosition, _dragable.position) > 6)
+            if (_positionTransformTuple.HasValue)
             {
-                Unplace(cell);
-            }
-            else
-            {
-                _dragable.DOMove(_startPosition, 1);
+                if (Vector3.Distance(_positionTransformTuple.Value.Item1, _positionTransformTuple.Value.Item2.position) > 6)
+                {
+                    Unplace(cell);
+                }
+                else
+                {
+                    //return sprite to the start position
+                    _positionTransformTuple.Value.Item2.DOMove(_positionTransformTuple.Value.Item1, 1);
+                }
+
             }
             moveCamera.canMove = true;
         }
         private void DragSprite(Vector3 mousePosition)
         {
             Vector2 pos = Camera.main.ScreenToWorldPoint(mousePosition);
-            _dragable.position = pos;
+            _positionTransformTuple.Value.Item2.position = pos;
         }
         private void OnProductsReady(Goods[] goods, FarmSubject farmSubject)
         {

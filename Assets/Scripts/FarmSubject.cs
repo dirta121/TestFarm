@@ -77,15 +77,12 @@ namespace TestFarm
                 }
                 _produceTime = 0;
                 onProductsReady?.Invoke(_goods.products, this);
+                if(_goods.isAnimal)
                 _produceTimes--;
             } while (_produceTimes > 0);
             if (_goods.isAnimal)
             {
                 WaitForFood();
-            }
-            else
-            {
-                onSubjectDied?.Invoke(_goods.products, this);
             }
         }
         private int _produceTimes;

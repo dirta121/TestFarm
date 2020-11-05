@@ -9,7 +9,7 @@ public class InputController : MonoBehaviour
     public static InputEvent onMouseDrag = new InputEvent();
     public static bool canInput = true;
     private const float _clickDelayConst = 0.25f;
-    private const float _clickTrashhold = 0.2f;
+    private const float _clickTrashhold = 0.25f;
 
     private void Update()
     {
