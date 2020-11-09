@@ -1,0 +1,1 @@
+{"gold":4555,"warehouse":{"items":[{"name":"Chicken","count":1},{"name":"Cow","count":2},{"name":"Wheat","count":2}]},"fields":{"items":[]}}

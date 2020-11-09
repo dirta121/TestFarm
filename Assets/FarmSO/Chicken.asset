@@ -27,5 +27,5 @@ MonoBehaviour:
   - {fileID: 8300000, guid: e85b039a6d9052f488b09ac58f6366e3, type: 3}
   - {fileID: 8300000, guid: 7557f30a51fa17e45b76faa3e9601365, type: 3}
   - {fileID: 8300000, guid: 86ab45e0dac6102468066e8e93b8f094, type: 3}
-  sprite: {fileID: 5336855417275088078, guid: e7500d956ff33054a8415786f9449829, type: 3}
+  sprite: {fileID: 5336855417275088078, guid: fae98c795864616499271d44eea8f573, type: 3}
   canBePlaced: 1
